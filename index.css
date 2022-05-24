@@ -1,73 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: "AUTHENTIC Sans";
+    src: url('./authentic_sans/WOFF/AUTHENTICSans-60.woff')
+}
 
 body {
-    font-family: 'Roboto', Arial, sans-serif; 
     display: flex;
     justify-content: center;
 }
 
-h1, h3, h4 {
+p {
     margin: 0;
-    padding: 0;
+}
+
+.header {
+    font-family: 'AUTHENTIC Sans', Arial, sans-serif;
+    letter-spacing: 0.4px;
+    display: flex;
 }
 
 .card {
     margin-top: 50px;
-    /* position: relative; */
-    height: 450px;
-    width: 400px;
     border: 1px slategrey solid;
     border-radius: 5px;
-    /* overflow: hidden; */
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
 }
 
-#header {
-    background: black;
+.header {
     color: white;
-    padding: 10px;
-    height: 80px;
-    border-radius: 5px 5px 0 0;
+    background-color: black;
 }
 
 .description {
-    float: left;
-    height: 100%;
-    font-size: 1em;
-}
-
-img {
-   max-width: 100%;
-   max-height: 100%; 
-   border-radius: 50%;
-   outline: 2px solid slategrey;
+    padding: 10px;
 }
 
 .portrait {
-    float: right;
-    width: 25%;
-    height: 100%;
-    width: 21.1%;
+    flex: auto;
+    display: flex;
 }
 
-#work {
+.portraitImage {
+    border-radius: 100%;
+    border: 3px solid slategray;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+
+@media (max-width: 1000px) {
+    .card {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .myName {
+        font-size: 75px;
+    }
+
+    .aboutMe {
+        font-size: 35px;
+    }
+
+    .adage {
+        font-size: 42px;
+    }
+
+    .portraitImage {
+        height: 175px;
+    }
+
+    .content {
+        font-size: 50px;
+    }
+
+    .socials {
+        font-size: 100px;
+        padding: 300px 0 20px 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card {
+        width: 400px;
+    }
+
+    .myName {
+        font-size: 2em;
+    }
+
+    .aboutMe {
+        font-size: 1em;
+    }
+
+    .adage {
+        font-size: 1.2em;
+    }
+
+    .portraitImage {
+        height: 80px;
+    }
+
+    .content {
+        font-size: 1.25em;
+    }
+
+    .socials {
+        font-size: 3em;
+        padding: 100px 0 15px 0;
+    }
+}
+
+.aboutMe {
+    color: #999999;
+}
+
+.content {
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     padding: 10px;
+}
+
+.jobs {
     display: flex;
     justify-content: space-between;
-    font-size: 1.3em;
 }
 
-.titles {
-    text-align: right;
-}
-
-#socials {
-    font-size: 3em;
+.socials {
     text-align: center;
-    margin-top: 140px;
-    position: relative;
 }
 
 .fa-brands {
     color: black;
+    height: 50px;
 }
