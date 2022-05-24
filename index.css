@@ -42,7 +42,6 @@ p {
 .portraitImage {
     border-radius: 100%;
     border: 3px solid slategray;
-    max-width: 100%;
     width: auto;
     text-align: center;
     margin: auto;
