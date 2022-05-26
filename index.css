@@ -3,6 +3,10 @@
     src: url('./authentic_sans/WOFF/AUTHENTICSans-60.woff')
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -16,6 +20,8 @@ p {
     font-family: 'AUTHENTIC Sans', Arial, sans-serif;
     letter-spacing: 0.4px;
     display: flex;
+    color: white;
+    background-color: black;
 }
 
 .card {
@@ -23,11 +29,6 @@ p {
     border: 1px slategrey solid;
     border-radius: 5px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
-}
-
-.header {
-    color: white;
-    background-color: black;
 }
 
 .description {
