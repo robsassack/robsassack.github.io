@@ -1,3 +1,5 @@
+import profilePic from '../assets/images/1631740100388.jfif';
+
 function Header() {
   return (
     <div className='header'>
@@ -7,7 +9,7 @@ function Header() {
         <p className='adage'>Building software for the future</p>
       </div>
       <div className='portrait'>
-        <img className='portraitImage' src='public/images/1631740100388.jfif' />
+        <img className='portraitImage' src={profilePic} />
       </div>
     </div>
   );
