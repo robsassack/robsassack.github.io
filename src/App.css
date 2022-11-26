@@ -1,6 +1,6 @@
 @font-face {
   font-family: "AUTHENTIC Sans";
-  src: local("AUTHENTIC Sans"), url("./assets/authentic_sans/WOFF/AUTHENTICSans-60.woff") format("woff");
+  src: local("AUTHENTIC Sans"), url("assets/authentic_sans/WOFF/AUTHENTICSans-60.woff") format("woff");
 }
 
 * {
