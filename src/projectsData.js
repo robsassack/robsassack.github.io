@@ -68,7 +68,7 @@ export default {
     {
       id: 14,
       title: "Landing Page",
-      url: "https://robsassack.github.io/odin-landing-page/",
+      url: "https://robsassack.github.io/landing-page/",
     },
     {
       id: 15,

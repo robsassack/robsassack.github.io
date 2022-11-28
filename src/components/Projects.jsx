@@ -9,7 +9,12 @@ function Projects() {
     );
   });
 
-  return <div className='projects'>{projects}</div>;
+  return <div className='projects'>
+    <h2>Projects</h2>
+    <div className="projects--container">
+      {projects}
+    </div>
+  </div>;
 }
 
 export default Projects;

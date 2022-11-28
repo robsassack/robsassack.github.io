@@ -27,7 +27,6 @@ function App() {
     <div className='App'>
       <GitHubCalendar
         username='robsassack'
-        hideTotalCount='true'
         hideColorLegend='true'
         hideMonthLabels='true'
         transformData={selectLastHalfYear}

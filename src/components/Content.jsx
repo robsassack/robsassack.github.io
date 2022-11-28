@@ -1,6 +1,7 @@
 function Content() {
   return (
     <div className='content'>
+      <h2>Work Experience</h2>
       <div className='work'>
         <div className='jobs'>
           <span className='company'>IBM</span>
