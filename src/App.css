@@ -36,9 +36,13 @@ body {
   margin-bottom: 20px;
 }
 
+.App--github-title {
+  margin-bottom: 10px;
+}
+
 .react-activity-calendar {
   opacity: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .portraitImage {

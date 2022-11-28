@@ -25,6 +25,8 @@ function App() {
 
   return (
     <div className='App'>
+      <Header />
+      <h2 className="App--github-title">GitHub</h2>
       <GitHubCalendar
         username='robsassack'
         hideColorLegend='true'
@@ -35,7 +37,6 @@ function App() {
           totalCount: "{{count}} contributions in last 6 months",
         }}
       />
-      <Header />
       <Projects />
       <Content />
       <Socials />
