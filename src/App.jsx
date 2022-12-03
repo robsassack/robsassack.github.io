@@ -32,10 +32,8 @@ function App() {
         hideColorLegend='true'
         hideMonthLabels='true'
         transformData={selectLastHalfYear}
+        transformTotalCount={false}
         className='calendar'
-        labels={{
-          totalCount: "{{count}} contributions in last 6 months",
-        }}
       />
       <Projects />
       <Content />
