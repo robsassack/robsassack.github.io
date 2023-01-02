@@ -17,8 +17,8 @@ export default {
     },
     {
       id: 4,
-      title: "CV Generator",
-      url: "https://robsassack.github.io/cv-generator/",
+      title: "Shopping Cart",
+      url: "https://robsassack.github.io/shopping-cart/",
     },
     {
       id: 5,
@@ -27,61 +27,66 @@ export default {
     },
     {
       id: 6,
+      title: "CV Generator",
+      url: "https://robsassack.github.io/cv-generator/",
+    },
+    {
+      id: 7,
       title: "Todo List",
       url: "https://robsassack.github.io/todo-list/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Tenzies",
       url: "https://robsassack.github.io/tenzies/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Tabletop Counter",
       url: "https://robsassack.github.io/counter/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Battleship",
       url: "https://robsassack.github.io/battleship/",
     },
     {
-      id: 10,
+      id: 11,
       title: "Beach Day Planner",
       url: "https://github.com/robsassack/beach-day-planner/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Pixel Painter",
       url: "https://robsassack.github.io/pixel-painter/",
     },
     {
-      id: 12,
+      id: 13,
       title: "Tic Tac Toe",
       url: "https://robsassack.github.io/tic-tac-toe/",
     },
     {
-      id: 13,
+      id: 14,
       title: "Calculator",
       url: "https://robsassack.github.io/calculator/",
     },
     {
-      id: 14,
+      id: 15,
       title: "Rock Paper Scissors",
       url: "https://robsassack.github.io/rock-paper-scissors/",
     },
     {
-      id: 15,
+      id: 16,
       title: "Dashboard",
       url: "https://robsassack.github.io/admin-dashboard/",
     },
     {
-      id: 16,
+      id: 17,
       title: "Landing Page",
       url: "https://robsassack.github.io/landing-page/",
     },
     {
-      id: 17,
+      id: 18,
       title: "Sign-up Form",
       url: "https://robsassack.github.io/sign-up-form/",
     },
