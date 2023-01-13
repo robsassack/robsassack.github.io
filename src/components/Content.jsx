@@ -9,7 +9,7 @@ function Content() {
         </div>
         <div className='jobs'>
           <span className='company'>MSU</span>
-          <span className='title'>Junior Analyst</span>
+          <span className='title'>Support Analyst</span>
         </div>
         <div className='jobs'>
           <span className='company'>WMU</span>
