@@ -81,6 +81,11 @@ body {
   padding: 5px;
 }
 
+.projects--item:hover {
+  box-shadow: 0 0 10px 1px white;
+  background-color: #252554;
+}
+
 .work {
   display: flex;
   flex-direction: column;
