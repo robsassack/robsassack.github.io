@@ -17,7 +17,11 @@ function Calendar() {
         transformData={selectLastHalfYear}
         transformTotalCount={false}
         className='calendar'
-      />
+        labels={
+          {totalCount: "{{count}} contributions in 6 months"}
+        }
+      >
+      </GitHubCalendar>
     </div>
   );
 }
