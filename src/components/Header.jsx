@@ -9,7 +9,7 @@ function Header() {
         <p className='adage'>Building software for the future</p>
       </div>
       <div className='portrait'>
-        <img className='portraitImage' src={profilePic} />
+        <img className='portraitImage' src={profilePic} alt="portrait" />
       </div>
     </div>
   );

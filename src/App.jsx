@@ -6,8 +6,6 @@ import Socials from "./components/Socials";
 import "./App.css";
 
 function App() {
-
-
   return (
     <div className='App'>
       <Header />
