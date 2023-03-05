@@ -1,4 +1,5 @@
 import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from "react-tooltip";
 
 function Calendar() {
   const selectLastHalfYear = (contributions) => {
@@ -18,6 +19,7 @@ function Calendar() {
         transformTotalCount={false}
         className='calendar'
       >
+        <ReactTooltip html />
       </GitHubCalendar>
     </div>
   );
