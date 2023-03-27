@@ -3,7 +3,7 @@ export default {
     {
       id: 1,
       title: "Sleep Calculator",
-      url: "https://robsassack.github.io/sleep-calc/",
+      url: "https://robsassack.github.io/sleep-calc-react/",
     },
     {
       id: 2,
