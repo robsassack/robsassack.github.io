@@ -3,6 +3,10 @@ function Content() {
     <div className='content'>
       <h2>Work Experience</h2>
       <div className='work'>
+        <div className="jobs">
+          <span className="company">State of Michigan</span>
+          <span className="title">Software Developer</span>
+        </div>
         <div className='jobs'>
           <span className='company'>IBM</span>
           <span className='title'>Support Technician</span>
