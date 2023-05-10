@@ -67,7 +67,7 @@ export default {
     },
     {
       id: 13,
-      title: "Tic Tac Toe",
+      title: "Tic-Tac-Toe",
       url: "https://robsassack.github.io/tic-tac-toe/",
     },
     {
@@ -89,11 +89,6 @@ export default {
       id: 17,
       title: "Landing Page",
       url: "https://robsassack.github.io/landing-page/",
-    },
-    {
-      id: 18,
-      title: "Sign-up Form",
-      url: "https://robsassack.github.io/sign-up-form/",
-    },
+    }
   ]
 }
