@@ -115,8 +115,10 @@ body {
 
 .socials a {
   color: white;
+  text-decoration: none;
 }
 
 .socials a:hover {
   color: #9d9dcf;
+  text-decoration: underline;
 }
