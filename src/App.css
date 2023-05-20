@@ -116,3 +116,7 @@ body {
 .socials a {
   color: white;
 }
+
+.socials a:hover {
+  color: #9d9dcf;
+}
