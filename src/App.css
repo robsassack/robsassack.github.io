@@ -80,11 +80,16 @@ body {
   border-radius: 5px;
   padding: 5px;
   height: 50px;
+  transition: 0.5s;
 }
 
 .projects--item:hover {
   box-shadow: 0 0 10px 1px white;
   background-color: #252554;
+}
+
+.projects--item:not(:hover) {
+  transition: box-shadow 1s, background-color 1s;
 }
 
 .work {
