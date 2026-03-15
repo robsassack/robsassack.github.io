@@ -1,17 +1,24 @@
-import profilePic from '../assets/images/1631740100388.jfif';
+import profilePic from "../assets/images/456561661_10228677288251197_6563638156515697177_n.jpg";
 
 function Header() {
   return (
-    <div className='header'>
+    <header className='header'>
       <div className='description'>
-        <p className='myName'>Rob Sassack</p>
+        <h1 className='myName'>Rob Sassack</h1>
         <p className='aboutMe'>Developer, technologist, musician</p>
         <p className='adage'>Building software for the future</p>
       </div>
       <div className='portrait'>
-        <img className='portraitImage' src={profilePic} alt="portrait" />
+        <img
+          className='portraitImage'
+          src={profilePic}
+          alt='Rob Sassack portrait'
+          width='80'
+          height='80'
+          decoding='async'
+        />
       </div>
-    </div>
+    </header>
   );
 }
 
