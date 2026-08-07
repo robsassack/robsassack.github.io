@@ -157,6 +157,7 @@ body {
 
 .jobs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 8px;
 }
@@ -168,6 +169,7 @@ body {
 }
 
 .title {
+  margin-left: auto;
   text-align: right;
 }
 
