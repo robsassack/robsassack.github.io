@@ -5,8 +5,7 @@ function Header() {
     <header className='header'>
       <div className='description'>
         <h1 className='myName'>Rob Sassack</h1>
-        <p className='aboutMe'>Developer, technologist, musician</p>
-        <p className='adage'>Building software for the future</p>
+        <p className='aboutMe'>Software engineer building web applications, automation, and AI-powered tools</p>
       </div>
       <div className='portrait'>
         <img
