@@ -1,7 +1,7 @@
 function Socials() {
   return (
     <nav className='socials' aria-label='Social links'>
-      <a href='./resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</a>
+      <a href='/Rob-Sassack-Resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</a>
       <a href='https://github.com/robsassack' target='_blank' rel='noopener noreferrer'>GitHub</a>
       <a href='https://linkedin.com/in/robsassack' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
     </nav>
