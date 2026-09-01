@@ -5,7 +5,7 @@ export default {
       title: "GapCheck",
       description: "Chrome extension that compares job postings against your resume, running entirely on-device with no data leaving the browser.",
       tech: ["Chrome Extension", "Gemini Nano", "JavaScript", "Manifest V3"],
-      url: "https://github.com/robsassack/gapcheck",
+      url: "https://gapcheck.robsassack.com",
     },
     {
       id: 21,
